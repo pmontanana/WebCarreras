@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+    <!-- Servlet Corredor y Administrador -->
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.pmf.webcarreras.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.pmf.webcarreras.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletCorredor</servlet-name>
+        <servlet-class>com.pmf.webcarreras.ServletCorredor</servlet-class>
+   </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletCorredor</servlet-name>
+        <url-pattern>/ServletCorredor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletAdministrador</servlet-name>
+        <servlet-class>com.pmf.webcarreras.ServletAdministrador</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAdministrador</servlet-name>
+        <url-pattern>/ServletAdministrador</url-pattern>
+    </servlet-mapping>
+</web-app>
