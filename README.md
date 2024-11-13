@@ -45,7 +45,7 @@ Las contribuciones son bienvenidas. Para reportar un problema o hacer una sugere
 
 ## Licencia
 
-Este proyecto no tiene una licencia específica.
+Este proyecto está licenciado bajo la GNU General Public License v3.0.
 
 ## Autores
 
