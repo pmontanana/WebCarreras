@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Java-100%25-blue)
 
-Primer commit. Hecho login y dos pantallas principales según usuario.
+Finalizacion proyecto base, faltan mejoras.
 
 ## Tabla de Contenidos
 
