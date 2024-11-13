@@ -27,16 +27,16 @@ WebCarreras es una aplicación desarrollada en Java que incluye un sistema de lo
     ```sh
     cd WebCarreras
     ```
-3. Compila el proyecto:
+3. Ejecuta el proyecto:
     ```sh
-    javac Main.java
+    tomcat index.jsp
     ```
 
 ## Uso
 
 Para ejecutar la aplicación, usa el siguiente comando:
 ```sh
-java Main
+tomcat index.jsp
 ```
 
 ## Contribuyendo
