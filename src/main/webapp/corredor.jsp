@@ -55,7 +55,7 @@
     <h2 class="mb-4">Corredor Menu</h2>
     <ul class="nav flex-column">
         <li class="nav-item">
-            <a class="nav-link" href="corredor/apuntarse">Apuntarse</a>
+            <a class="nav-link" href="./crearPersona.jsp">Apuntarse</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="corredor/carreras-disponibles">Carreras disponibles</a>

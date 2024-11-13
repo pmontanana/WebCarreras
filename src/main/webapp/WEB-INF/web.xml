@@ -42,4 +42,13 @@
         <servlet-name>ServletAdministrador</servlet-name>
         <url-pattern>/ServletAdministrador</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CrearPersona</servlet-name>
+        <servlet-class>com.pmf.webcarreras.CrearPersona</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CrearPersona</servlet-name>
+        <url-pattern>/CrearPersona</url-pattern>
+    </servlet-mapping>
 </web-app>
