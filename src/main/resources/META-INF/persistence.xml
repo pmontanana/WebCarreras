@@ -3,7 +3,7 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_2.xsd"
              version="3.2">
-    <persistence-unit name="miUnidadDePersistencia" transaction-type="RESOURCE_LOCAL">
+    <persistence-unit name="miUnidadDePersistencia">
         <!-- Clases de entidad  -->
         <class>logica.Carrera</class>
         <class>logica.Inscripcion</class>
@@ -22,9 +22,9 @@
             <property name="hibernate.use_sql_comments" value="true"/>
 
             <!-- Detalles de conexión a la base de datos -->
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:mariadb://iasanz.synology.me:3306/pmontaanaf01_webCarreras"/>
-            <property name="jakarta.persistence.jdbc.user" value="alumno"/>
-            <property name="jakarta.persistence.jdbc.password" value="AlumnoSanz$1"/>
+            <property name="jakarta.persistence.jdbc.url" value="${DB_URL}"/>
+            <property name="jakarta.persistence.jdbc.user" value="${DB_USER}"/>
+            <property name="jakarta.persistence.jdbc.password" value="${DB_PASSWORD}"/>
             <property name="jakarta.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
         </properties>
     </persistence-unit>
